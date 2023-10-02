@@ -2,7 +2,7 @@ body {
 		font-family: Arial, Verdana, sans-serif;
 		font-size: 90%;
 		color: #666;
-		background: url('images/bg.jpg');
+		background: url('images/bg2.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -171,20 +171,24 @@ body {
 	}
 
 	input[type="submit"] {
-		border: 1px solid #006633;
+		border: 1px solid #000000;
 		background: transparent;
 		backdrop-filter: blur(6px);
 		color: #ffffff;
 		border-radius: 5px;
 		padding: 5px;
 		margin-top: 10px;
+		font-weight: 700;
+		text-shadow: 2px 2px 1px #000000;
 		transition: 0.5s;
 	}
 
 	input[type="submit"]:hover {
-		border: 1px solid #000000;
-		background-color: #00CC33;
+		border: 1px solid #ffffff;
+		background-color: transparent;
 		color: #ffffff;
+		font-weight: 700;
+		text-shadow: 2px 2px 1px #ffffff;
 		cursor: pointer;
 		transform: scale(1.3);
 	}
